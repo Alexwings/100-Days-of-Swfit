@@ -16,7 +16,7 @@ struct Payment<T> where T: Currency {
     
     //MARK: Public APIs
     mutating func update(rate: Float) -> Bool {
-        guard rate < 1 && rate >= 0 else { return false }
+        guard rate <= 1 && rate >= 0 else { return false }
         self.tipRate = rate
         return true
     }
