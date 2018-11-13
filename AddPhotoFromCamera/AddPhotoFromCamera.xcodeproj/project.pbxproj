@@ -57,11 +57,19 @@
 				EA065918219A24E8003115EF /* AppDelegate.swift */,
 				EA06591A219A24E8003115EF /* ViewController.swift */,
 				EA06591C219A24E8003115EF /* Main.storyboard */,
+				EAFE761E219B3C78001D68D2 /* Resources */,
+			);
+			path = AddPhotoFromCamera;
+			sourceTree = "<group>";
+		};
+		EAFE761E219B3C78001D68D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				EA06591F219A24E8003115EF /* Assets.xcassets */,
 				EA065921219A24E8003115EF /* LaunchScreen.storyboard */,
 				EA065924219A24E8003115EF /* Info.plist */,
 			);
-			path = AddPhotoFromCamera;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 637NAX2FZ5;
-				INFOPLIST_FILE = AddPhotoFromCamera/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AddPhotoFromCamera/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 637NAX2FZ5;
-				INFOPLIST_FILE = AddPhotoFromCamera/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AddPhotoFromCamera/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
