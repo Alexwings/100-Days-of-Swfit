@@ -132,6 +132,14 @@ extension ViewController: UITableViewDelegate {
             tableView.endUpdates()
         }
     }
+    
+    func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let movingItem = dataSource.remove(at: sourceIndexPath.row)
+        dataSource.insert(movingItem, at: destinationIndexPath.row)
+    }
 }
 
 extension UIView {
